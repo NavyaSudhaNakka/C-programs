@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+	int n,num;
+	printf("enter size: ");
+	scanf("%d",&n);
+	printf("enter number: ");
+	scanf("%d",&num);
+	int i=num;
+	while(n>1)
+	{
+		printf("enter number: ");
+		scanf("%d",&num);
+		if(num>i)
+			i=num;
+		n--;
+	}
+	printf("biggest number is = %d",i);
+}
