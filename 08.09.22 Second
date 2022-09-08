@@ -1,0 +1,7 @@
+#include<stdio.h>
+void main()
+{
+  int n;
+  scnaf("%d",&n);
+}
+// LOGIC NOT GETTING MAM
